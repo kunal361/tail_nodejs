@@ -1,3 +1,5 @@
+#tail -f like function in node.js
+
 This problem requires you to implement a log watching solution (similar to the tail -f command in UNIX). However, in this case, the log file is hosted on a remote machine.
 
 You have to implement the following:
@@ -9,3 +11,11 @@ You have to implement the following:
 The server should not retransmit the entire file every time. It should only send the updates.
 
 You can not use off-the-shelf libraries that provide tail-like functionalities.
+
+
+#Working
+
+Execute the server in the terminal:</br>
+> node server.js
+
+This will start a serving the log file on localhost on port 8000.
