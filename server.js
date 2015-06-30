@@ -50,7 +50,7 @@ io.on('connection', function(socket){
     }
   });
   
-  var work = false;
+  var work = false; // to overcome a bug in watch, as it returns 2 events for a single update to the file it is monitoring
   fs.watch('log.txt', function(event, filename) {
     if(work)
     {
