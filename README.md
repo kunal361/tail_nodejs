@@ -18,4 +18,4 @@ You can not use off-the-shelf libraries that provide tail-like functionalities.
 Execute the server in the terminal:</br>
 > node server.js
 
-This will start a serving the log file on localhost on port 8000.
+This will start serving the log file on localhost on port 8000.
